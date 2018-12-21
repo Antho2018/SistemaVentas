@@ -1,0 +1,17 @@
+
+
+Here are the steps if you want to do this from Eclipse :
+
+1) Create a folder 'sqlauth' in your C: drive, and copy the dll file sqljdbc_auth.dll to the folder
+
+1) Go to Run> Run Configurations
+
+2) Choose the 'Arguments' tab for your class
+
+3) Add the below code in VM arguments:
+
+-Djava.library.path="C:\\sqlauth"
+
+4) Hit 'Apply' and click 'Run'
+
+Feel free to try other methods .
